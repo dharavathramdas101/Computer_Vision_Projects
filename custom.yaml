@@ -1,0 +1,11 @@
+
+
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: /content/drive/MyDrive/train.txt
+val: /content/drive/MyDrive/val.txt
+test: /content/drive/MyDrive/test.txt
+# number of classes
+nc: 7
+
+# class names
+names: ['alligator_crack','block_crack','longitudinal_crack','pothole','sealed_longitudinal_crack','sealed_transverse_crack','transverse_crack']
